@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <form id="calculator">
+    <label for="input1">First number</label>
+    <input id="num1" type="text">
+    <label for="input2">Second number</label>
+    <input id="num2" type="text">
+
+    <form>
+      <input type="radio" name="operator" value="add" checked>
+        Add
+      </input>
+      <input type="radio" name="operator" value="subtract">
+        Subtract
+      </input>
+      <input type="radio" name="operator" value="multiply">
+        Multiply
+      </input>
+      <input type="radio" name="operator" value="divide">
+        Divide
+      </input>
+      <button class="button"type="submit">Equals</button>
+    </form>
+  </form>
+
+  <div>
+    <h2>The answer is:</h2>
+    <p id="answer"></p>
+  </div>
+  
+</body>
+</html>
